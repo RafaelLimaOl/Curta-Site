@@ -1,0 +1,388 @@
+
+div.curta-container {
+  
+  position: absolute;
+  width: 100%;
+  top: 913px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+
+  overflow: hidden;
+
+}
+
+div.curta-container div.button {
+
+  width: 981px;
+  height: 607px;
+
+  transform: translateY(-17.75rem);
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+
+  row-gap: 2rem;
+  -moz-column-gap: 4.7rem;
+       column-gap: 4.7rem;
+
+  z-index: 2;
+
+}
+
+div.i{
+  transform: translateY(-11.25rem);
+}
+
+div.fita{
+
+  position: absolute;
+  top: 10%;
+  left: 2%;
+
+  z-index: -1;
+
+}
+
+svg{
+  position: absolute;
+  top: 709px;
+}
+
+div.popcorn{
+  
+  transform: rotate(-90deg);
+
+  position: absolute;
+  top: 0%;
+  right: 5%;
+
+  z-index: -1;
+
+}
+
+div.popcorn img{
+
+  width: 100%;
+  height: 275px;
+
+}
+
+div.poltrona{
+
+  position: absolute;
+  left: 50%;
+  bottom: -6.33%;
+  transform: translateX(-50%);
+
+}
+
+div.poltrona img{
+  width: 100vw;
+  height: 300px;
+}
+
+div.poltrona div.background{
+
+  height: 300px;
+  width: 100vw;
+
+  background: black;
+  transform: translateY(-10px);
+}
+
+div.curta-container div.curta-video{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 875px;
+  width: 100vw;
+  
+  padding: 3rem;
+  
+  background: #272727;
+  transform: translateY(-16.813rem);
+
+}
+
+
+div.curta-container div.button button.btn-video {
+
+  width: 174px;
+  height: 51px;
+  border-radius: 13px;
+  border: none;
+  outline: none;
+
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25.2px;
+
+  transition: all 0.5s ease-in-out;
+
+}
+
+div.curta-container div.button div.btn-icon button.btn-video:focus div.tooltip, 
+div.curta-container div.button div.btn-icon div.tooltip{
+
+opacity: 1;
+}
+
+div.curta-container div.button div.btn-icon div.tooltip{
+
+  background-color: #FFD60A;
+  border-radius: 16px;
+
+  height: 40px;
+  width: 150px;
+  margin-bottom: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  display: none;
+  transition: all .5s cubic-bezier(.17,.67,.83,.67);
+
+}
+
+
+div.curta-container div.button div.btn-icon div.tooltip::before{
+
+  content: "";
+  position: absolute;
+
+  height: 15px;
+  width: 15px;
+
+  background-color: #FFD60A;
+  transform: translate(2px, 17px) rotate(45deg);
+
+
+}
+
+div.curta-container div.cards {
+
+  width: 981px;
+  height: 550px;
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+
+  background-color: white;
+  box-shadow: rgba(255, 255, 255, 1) 0px 50px 100px -20px,rgba(255, 255, 255, 1) 0px 30px 60px -30px, rgba(255, 255, 255, 1) 0px -2px 6px 0px inset;
+}
+div.curta-container div.cards div.card {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 228px;
+  width: 458px;
+
+  background-color: black;
+
+}
+div.curta-container div.cards div.card button.myBtn_multi {
+  position: relative;
+  margin: 1.3rem;
+  width: 95px;
+  height: 33px;
+  border-radius: 71px;
+  color: #FFD60A;
+  background: none;
+  border: solid 2px #FFD60A;
+
+  transition: all .5s ease;
+}
+div.curta-container div.cards div.card button.myBtn_multi:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #FFD60A;
+  border: none;
+  outline: none;
+}
+div.curta-container div.cards div.card button.btn-play {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.3rem 0.3rem 1.3rem 1.3rem;
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  background-color: #FFD60A;
+  border: none;
+  outline: none;
+}
+div.curta-container div.cards div.card button.btn-play img.play {
+  height: 15px;
+  width: 15px;
+}
+
+div.curta-container div.curta-descr{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 35%;
+  right: -2%;
+  width: 350px;
+
+}
+
+div.curta-container div.curta-descr h1.livro-info{
+
+  font-size: 1.5rem;
+
+}
+
+
+div.curta-container div.curta-descr button{
+
+  margin: 0rem 1.3rem 1.2rem 0rem;
+  height: 45px;
+  width: 250px;
+
+  border-radius: 16px;
+  border: none;
+  outline: none;
+
+  transition: all .5s ease-in-out;
+}
+
+div.curta-container div.curta-descr button:hover{
+
+  transform: translateX(-35px);
+  cursor: pointer;
+
+  border: 10px solid transparent;
+
+}
+
+div.curta-container div.button div.btn-icon{
+
+  overflow: hidden;
+  transition: all .7s ease-in;
+  
+}
+
+div.curta-container div.button div.btn-icon button.btn-ticket{
+
+  background: none;
+
+  border: none;
+  outline: none;
+
+}
+
+div.curta-container div.button div.btn-icon button.btn-ticket img{
+  
+  width: 100%;
+  height: 150px;
+
+}
+
+div.curta-container div.button div.btn-icon:hover{
+  
+  overflow: hidden;
+
+  animation: rotateTicket infinite 1.3s;
+}
+
+
+@keyframes rotateTicket {
+  
+  15%{
+    animation-delay: .3s;
+    scale: 1.21;
+  }
+
+  75%{
+    animation-delay: 1s;
+    scale: 1;
+  }
+
+}
+
+div.curta-container div.button div.btn-icon:hover button.btn-ticket img{
+  cursor: pointer;
+}
+
+.modal {
+  color: white;
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+}
+
+.modal-content {
+  color: white;
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 16px;
+  width: 80%;
+  background-color: #000;
+}
+
+.colum{
+  column-count: 2;
+  column-gap: 100px;
+  margin: 15px 10px;
+}
+
+.modal-content p{
+  color: white;
+  font-size: 1.4em;
+}
+
+.close {
+  color: white;
+  float: right;
+  margin-top: -0.7rem;
+  font-size: 38px;
+  font-weight: bold;
+  transition: all .5s ease;
+}
+
+.close:hover,
+.close:focus {
+  scale: 1.4;
+  text-decoration: none;
+  color: red;
+  cursor: pointer;
+}
+/*# sourceMappingURL=curta-container.css.map */

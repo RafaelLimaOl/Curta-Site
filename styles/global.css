@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;900&family=Poppins:wght@100;200;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  overflow-x: hidden;
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+}
+
+img, a{
+  user-select: none;
+}
+
+body{
+  
+  width: 100%;
+  min-height: 100vh;
+
+}

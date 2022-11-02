@@ -1,0 +1,57 @@
+div.navbar div.nav {
+
+  position: absolute;
+  top: 38px;
+  left: 41px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+
+  height: 73px;
+  width: 95%;
+
+  background: rgb(11 10 10 / 91%);
+
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  border-radius: 18px;
+  z-index: 1;
+  
+}
+
+div.navbar div.nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+div.navbar div.nav ul li {
+  margin-right: 42px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31.5px;
+}
+
+div.navbar div.nav ul li a {
+  color: white;
+}
+
+div.navbar div.nav ul li a:hover {
+  color: #FEE440;
+}
+
+div.navbar div.nav div.logo {
+  margin-left: 47px;
+}
+
+div.navbar div.nav div.menu{
+  display: none;
+}
+
+div.navbar div.nav div.menu span{
+  font-size: 2.3rem;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,42 @@
+div.footer {
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 3235px;
+
+  height: 117px;
+  width: 100%;
+
+  color: white;
+  background-color: #262626;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+div.footer h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 31.5px;
+}
+div.footer img.btn-top {
+  position: absolute;
+  top: 40px;
+  left: 90%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+}
+div.footer img.btn-top:hover {
+  scale: 1.2;
+}
+div.footer img.btn-top a {
+  color: black;
+  font-size: 24px;
+}/*# sourceMappingURL=footer.css.map */

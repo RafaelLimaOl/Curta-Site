@@ -1,0 +1,256 @@
+/* Primeiro BreakPoint: 1565px */
+
+@media (max-width: 2000px) {
+
+    svg{
+        position: absolute;
+        top: 620px;
+    }
+}
+
+/* Segundo BreakPoint: 795px */
+
+@media (max-width: 1036px){
+
+    div.landing p.content {
+        width: 500px;
+        height: 150px;
+    }
+
+    svg{
+        top: 810px;
+    }
+
+    div.curta-container div.button {
+        width: 509px;
+        height: 674px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: flex-end;
+        align-items: center;
+        row-gap: 1.2rem;
+        -moz-column-gap: 4.7rem;
+        column-gap: 1.7rem;
+    }
+
+    div.curta-container div.cards {
+        width: 981px;
+        height: 1105px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1.3rem;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.curta-container div.curta-video{
+
+        overflow: hidden;
+        height: 1390px;
+
+    }
+
+    div.curta-container div.poltrona{
+        bottom: -4.33%;
+    }
+
+    div.about{
+        margin-top: 1rem;
+        height: 485px;
+        top: 3335px;
+    }
+
+    div.about div.about-content{
+        width: 500px;
+        height: 600px;
+        margin-bottom: 3rem;
+    }
+
+    div.about div.about-content p.about-text{
+        width: 450px;
+    }
+
+    div.footer{
+        top: 3836px;
+    }
+}
+
+/* Menu Responsivo */
+
+@media (max-width: 800px) {
+
+    div.navbar{
+        position: absolute;
+        top: 7px;
+        border-radius: 15px;
+        left: -24px;
+        width: 100%;
+        height: 115px;
+    }
+
+ 
+    div.navbar div.nav ul{
+        display: none;
+    }
+
+    div.navbar div.nav div.menu{
+        display: flex;
+        margin-right: 2rem;
+    }
+
+    div.cards{
+        background: none;
+        box-shadow: none;
+    }
+
+}
+
+
+/* Terceiro BreakPoint:  500px */
+
+@media (max-width: 500px) {
+    
+    div.landing div.img-wrapper{
+        box-shadow: none;
+    }
+
+    div.landing div.img-wrapper img{
+        display: none;
+    }
+
+    svg{
+        display: none;
+    }
+
+    div.landing{
+        box-shadow: inset 2px 2px 20px 9px black;
+    }
+
+    div.landing h1.header{
+        transform: translateY(-140px);
+    }
+
+    div.landing p.content{
+        width: 260px;
+        height: 400px;
+
+        transform: translateY(128px);
+    }
+
+    div.i{
+        z-index: -5;
+        transform: translateY(-6.25rem);
+    }
+
+    div.curta-container{
+        top: 790px;
+    }
+
+    div.curta-container div.button{
+        width: 981px;
+        height: 1238px;
+        display: flex;
+        column-gap: 4.7rem;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.curta-container div.cards{
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    div.curta-container div.curta-video{
+
+        display: flex;
+        overflow: hidden;
+        height: 1042px;
+        width: 120vw;
+        
+    }   
+
+    div.curta-container div.cards div.card{
+        overflow: hidden;
+        border: 2px solid #fff;
+        width: 340px;
+    }
+
+    div.curta-container div.cards div.card button.myBtn_multi{
+        display: none;
+    }    
+
+    div.curta-container div.popcorn{
+
+        position: absolute;
+        top: 39%;
+        right: 54%;
+        
+        transform: rotate(50deg);
+    }
+
+    div.curta-container div.poltrona{
+        display: none;
+    }
+
+    div.curta-container div.curta-video{
+        height: 1045px;
+    }
+
+    div.about{
+
+        top: 3376px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 913px;
+
+        background-color: white;
+
+    }
+
+    div.about div.about-content{
+        width: 500px;
+        margin-bottom: 3rem;
+        height: 700px;
+    }
+
+    div.about div.about-content h1.about-header{
+        margin: 1rem;
+    }
+
+    div.about div.about-content p.about-text{
+        width: 290px;
+        height: 237px;
+        text-align: center;
+    }
+
+    div.curta-container div.button div.btn-icon button.btn-ticket img {
+        width: 100%;
+        height: 125px;
+    }
+
+    div.about div.about-content{
+        width: 325px;
+        height: 725px;
+    }
+
+    div.footer{
+        top: 4377px;
+    }
+
+    div.footer a{
+        display: none;
+    }
+}
+
+/* Quarto BreakPoint: 320px */
